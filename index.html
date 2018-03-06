@@ -1,43 +1,133 @@
 <!DOCTYPE html>
-<html lang="en">	
-	<head>
-		<title>About Tia</title>
-		<meta charset="utf-8">
-		<link href="assets/css/style.css" rel="stylesheet">
-	</head>
-	<body>
-		<div class="wrapper">
-			<div class="header">
-				<div class="myName">
-					<p class="logo">Tia Vasquez</p>
-				</div>
-				<div class="menuBar">
-					<a href="index.html">About</a>
-					<a href="portfolio.html">Portfolio</a>
-					<a href="contact.html">Contact</a>
-				</div>
-			</div> 
+<html>
+<head>
+  <title>Tia Vasquez Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway" />
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lusitana" />
+  <link href="assets/css/style.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40">
 
-			<div class="middleSection">
-				<div class="aboutMe">
-						<h2>About Me</h2>
-						<img class="headshot" src="assets/images/tia-headshot.jpg" alt="photo of Tia">
-						<p>Tia lives in Southern California with her daughter, 1 dog, and 2 cats. 
-						They all moved from Minnesota on July 1, 2017.</p>
-						<p>It was a bold move and quite the adventure when they moved. Of all things, their moving truck was stolen out of a hotel parking lot in Las Vegas, and all of their possessions were stolen.</p>
-						<p>I will write more about it later.</p>
-						<p>Thank you for visiting my "About Me" page.</p>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="#">Tia Vasquez</a>
+			<a href="https://www.linkedin.com/in/tiavasquez/" target="_blank">
+				<img src="assets/images/linkedin-gray.png" alt="linkedin"></a>
+		</div>
+    <div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#section1">ABOUT</a></li>
+          <li><a href="#section2">EXPERIENCE</a></li>
+		  <li><a href="#section3">PORTFOLIO</a></li>
+		  <li><a href="#section4">EDUCATION</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div id="section1" class="container-fluid">
+  <h1>ABOUT</h1>
+  <img class="img-responsive img-rounded" src="assets/images/tia-300.jpg" alt="Tia Vasquez"><br>
+	<h3>Software Engineer/Web Developer</h3><br>
+  	<h4>Passionate about coding, Tia has a wealth of experience.</h4> 
+	<h4>She has 19 years of experience as a Senior Software Engineer using C++, Java, and SQL to develop desktop systems.</h4> 
+	<h4>She has 9 years of experience using HTML and CSS to support marketing websites.</h4> 
+	<h4>Recently Tia earned a certificate in Full Stack Web Development and is excited to apply what she learned to the software/web development world.</h4>  
+</div>
+<div id="section2" class="container-fluid">
+	<h1>EXPERIENCE</h1><br>
+	<div class="row">
+		<div class="card col-lg-4">
+				<img class="card-img-top img-circle img-responsive" src="assets/images/thomson-reuters-logo.jpg" alt="Thomson Reuters">
+				<div class="card-body">
+				  <h3 class="card-title">Senior Software Engineer</h3>
+				  <h4 class="card-text">19 years</h4>
+					  <li>Software Development Life Cycle</li>
+					  <li>UI design and development</li>
+					  <li>OO design and development (C++, Java)</li>
+					  <li>Relational databases (SQL)</li>
 				</div>
-				<div class="connectWithMe">
-						<h3>Connect with Me</h3>
-						<a href="https://github.com/tiavasquez" target="_blank"><img src="assets/images/github-icon64x64.png" alt="github"></a>
-						<a href="https://www.linkedin.com/in/tiavasquez/" target="_blank"><img src="assets/images/linkedin-icon64x64.png" alt="linkedin"></a>
-						<a href="https://www.facebook.com/tia.vasquez.5" target="_blank"><img src="assets/images/facebook-icon64x64.png" alt="facebook"></a>
-				</div>	 
-			</div>  
-			<div class="footer">
-				<p class="copyrightText">Copyright 2017 Tia Vasquez</p>
-			</div>
-		</div> 
-	</body>
+		</div>
+		<div class="card col-lg-4">
+				<img class="card-img-top img-circle img-responsive" src="assets/images/secure-logo.jpg" alt="Secure Computing">
+				<div class="card-body">
+				  <h3 class="card-title">Web Designer</h3>
+				  <h4 class="card-text">1 year</h4>
+						<li>Front-end website (HTML, CSS, Photoshop)</li>
+						<li>Email marketing campaigns</li>
+				</div>
+		</div>
+		<div class="card col-lg-4">
+				<img class="card-img-top img-circle img-responsive" src="assets/images/hci-logo.jpg" alt="HealthCare Interactive">
+				<div class="card-body">
+				  <h3 class="card-title">Web Developer/Customer Support</h3>
+				  <h4 class="card-text">8 years</h4>
+						<li>Front-end website (HTML, CSS)</li>
+						<li>Web-based education programs (XML)</li>
+						<li>Content management (CMS)</li>
+						
+				</div>
+		</div>
+	</div>	
+</div>
+<div id="section3" class="container-fluid">
+		<h1>PORTFOLIO</h1>
+		<div class="row">
+				<div class="card col-lg-6">
+						<div class="card-block">
+							<h3 class="card-title">Parent Communication Portal Website</h3>
+						</div>
+						<a href="https://heroku-parent-portal.herokuapp.com/" target="_blank">
+						<img class="card-img-top img-responsive" src="assets/images/parent-portal-thumbnail.jpg" alt="Parent Communication Portal">
+						</a>
+						<div class="card-body">
+						  <h4 class="card-text">Full Stack Web Application (Customizable)</h4>
+						  <p class="card-text">JavaScript | Node.js | MySQL | Bootstrap</p>
+						  <p class="card-text"><a href="https://github.com/tiavasquez/Parent-Communication-Portal/blob/master/README.md" target="_blank">
+						GitHub README.md file</a></p>
+						</div>
+				</div>
+				<div class="card col-lg-6">
+						<div class="card-block">
+							<h3 class="card-title">HealthCare Interactive Website</h3>
+						</div>	
+						<a href="https://hcinteractive.com" target="_blank">
+						<img class="card-img-top img-responsive" src="assets/images/hcinteractive-thumbnail.jpg" alt="HealthCare Interactive">
+						</a>
+						<div class="card-body">
+						  <h4 class="card-text">Marketing Website Front-End</h4>
+						  <p class="card-text">HTML | CSS | CMS</p>
+						</div>
+				</div>
+		</div>		
+</div>
+<div id="section4" class="container-fluid">
+	<h1>EDUCATION</h1>
+	<div class="row">
+		<div class="col-lg-4">
+			<h3>B.S. Computer Science</h3>
+			<p>Minnesota State University, Mankato MN</p>
+			<p>1986</p>				
+		</div>
+		<div class="col-lg-4">
+			<h3>M.S. Software Engineering</h3>
+			<p>University of St. Thomas, St. Paul MN</p>
+			<p>1993</p>				
+		</div>
+		<div class="col-lg-4">
+			<h3>Full Stack Web Development Certificate</h3>
+			<p>University of California, Irvine</p>
+			<p>2018</p>	
+		</div>
+	</div>	
+</div>
+
+</body>
 </html>
